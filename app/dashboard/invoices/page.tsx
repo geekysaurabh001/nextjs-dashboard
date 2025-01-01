@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default async function Page({
   searchParams,
 }: {
-  searchParams: { query?: string; page?: string };
+  searchParams: Promise<{ query?: string; page?: string }>;
 }) {
   const query = (await searchParams).query || "";
   const currentPage = Number((await searchParams).page) || 1;
