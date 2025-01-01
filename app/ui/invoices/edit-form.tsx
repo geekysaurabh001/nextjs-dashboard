@@ -168,7 +168,9 @@ export default function EditInvoiceForm({
         >
           Cancel
         </Link>
-        <Button type="submit">Edit Invoice</Button>
+        <Button type="submit" disabled={isPending}>
+          {isPending ? "Editing..." : "Edit Invoice"}
+        </Button>
       </div>
 
       <div
