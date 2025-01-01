@@ -1,0 +1,6 @@
+2025-01-01 22:45:58 [31merror[39m: Database Error: Failed to Delete Invoice:  Failed to Delete Invoice
+2025-01-02 00:12:54 [31merror[39m: Invalid credentials
+2025-01-02 00:13:02 [32minfo[39m: Fetching revenue data...
+2025-01-02 00:13:05 [32minfo[39m: Data fetch completed after 3 seconds.
+2025-01-02 00:13:16 [32minfo[39m: Fetching revenue data...
+2025-01-02 00:13:19 [32minfo[39m: Data fetch completed after 3 seconds.
